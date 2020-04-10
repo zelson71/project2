@@ -1,0 +1,12 @@
+.bground{
+    background :linear-gradient( rgba(66, 2, 61, 0.5) 0%,rgba(119, 220, 37, 0.5) 100%);
+  }
+.two{
+    background-color: darkorchid;
+    color: darkseagreen;
+}
+ #link {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

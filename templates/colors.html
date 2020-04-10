@@ -1,0 +1,17 @@
+{% extends 'layout.py.jinja2' %}
+
+{% block body %}
+<div class="body">
+    <div class="jumbotron bg-info text-white text-center bground" id="one">
+
+        <h1>Wine Colors </h1>
+
+
+    </div>
+    {% for post in test_data %}
+    <h1>{{ post.name}}</h1>
+    <p>{{ post.color }}</p>
+
+    {% endfor %}
+</div>
+{% endblock %}
