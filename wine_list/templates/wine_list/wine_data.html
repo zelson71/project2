@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+
+{% load static %}
+
+<div class="body">
+    <div class="jumbotron bg-info text-white text-center bground" id="one">
+
+        <h1>Wine Data</h1>
+        <!-- <p class="lead">Available APP's </p>
+        <p></p>
+        <ul id="link" style="list-style-type:none;">
+            <li><a href="/api/v1.0/precipitation">Precipitation</a></li>
+            <li>/api/v1.0/precipitation</li>
+            <li><a href="/api/v1.0/stations">Stations</a></li>
+            <li>/api/v1.0/stations</li>
+            <li><a href="/api/v1.0/tobs">Temprature Observations</a></li>
+            <li>/api/v1.0/tobs</li>
+            <li><a href="/api/v1.0/temp/<start>">Start Dates</a></li>
+            <li>/api/v1.0/<start>
+            </li>
+            <li>(start: A date string in the format YYYY-mm-dd)</li>
+            <li><a href="/api/v1.0/temp/start/end">Start and End Dates</a></li>
+            <li>/api/v1.0/2016-8-23/2017-8-23></li>
+            <li>(start/end: A date string in the format YYYY-mm-dd)</li>
+        </ul> -->
+    </div>
+    <div class="row background">
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center btn btn-block hvr-border-fade" id="filterBtn">Filter Search</h5>
+                    <form id="UFOForm">
+                        <div class="form-group card-text">
+                            <label for="color">Type</label>
+                            <input type="text" class="form-control" id="color">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Country</label>
+                            <input type="text" class="form-control" id="city">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="state">Rating</label>
+                            <input type="text" class="form-control" id="state">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="state">Price</label>
+                            <input type="text" class="form-control" id="state">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="shape">Shape</label>
+                            <br>
+                            <select name="shapes" id="shape">
+                                <option value=""></option>
+                                <option value="changing">changing</option>
+                                <option value="chevron">chevron</option>
+                                <option value="cigar">cigar</option>
+                                <option value="circle">circle</option>
+                                <option value="cross">cross</option>
+                                <option value="cylinder">cylinder</option>
+                                <option value="disk">disk</option>
+                                <option value="fireball">fireball</option>
+                                <option value="flash">flash</option>
+                                <option value="formation">formation</option>
+                                <option value="light">light</option>
+                                <option value="other">other</option>
+                                <option value="oval">oval</option>
+                                <option value="sphere">sphere</option>
+                                <option value="teardrop">teardrop</option>
+                                <option value="triangle">triangle</option>
+                                <option value="unknown">unknown</option>
+
+                            </select> -->
+                </div>
+
+                <div class="card-footer bg-transparent ">
+                    <!-- <div class="btn-group" role="group"> <button type="button"
+                            class="btn btn-outline-success">Filter</button> -->
+                </div>
+                <button type="button" class="btn btn-outline-danger" id="resetBtn">Reset Table </button>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                <div class="table-responsive-xs">
+                    <table class="table table-striped">
+                        <tbody class="table-striped">
+                            <thead>
+                                <!-- <th>id</th> -->
+                                <th>Title</th>
+                                <th>Category</th>
+                                <!-- <th>Description</th> -->
+                                <th>Designation</th>
+                                <th>Price</th>
+                                <th>Rating</th>
+                                <th>Alcohol Content</th>
+                                <th>Country</th>
+                            </thead>
+
+                            {% for wine in my_wine %}
+                            <tr>
+                                <!-- <td>{{ wine.id}} </td> -->
+                                <td>{{ wine.title }} </td>
+                                <td>{{ wine.category }}</td>
+                                <!-- <td>{{ wine.description }}</td> -->
+                                <td>{{ wine.designation }}</td>
+                                <td>{{ wine.price }}</td>
+                                <td>{{ wine.rating }}</td>
+                                <td>{{ wine.alcohol }} </td>
+                                <td>{{ wine.country }}</td>
+                            </tr>
+
+                            {% endfor %}
+
+                    </table>
+                    </tbody>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+</html>
