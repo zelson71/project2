@@ -26,6 +26,7 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')), 
     path('wine/',wine_list.views.wine,name='wine'),
     path('types/',wine_list.views.types,name='types'),
+    path('deets/', wine_list.views.deets, name='details')
    
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

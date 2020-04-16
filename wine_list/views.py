@@ -43,6 +43,9 @@ def w_data(request):
      }
     return render(request, 'wine_list/rating.html', context)
 
+def deets(request,):
+    # details = get_object_or_404()
+    return render(request, 'wine_list/deets.html')
 
 def wine(request):
     wine_info = AllWines.objects.all() [:5000]
