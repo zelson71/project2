@@ -52,13 +52,10 @@ def wine(request):
     return render(request, 'wine_list/wine.html', context)
 
 def types(request):
-    types = AllWines.objects.all() 
-    context = {"title": "title" , "my_wine": types}
-    # conn = postgres.connect (host = "127.0.0.1",
-    #                     user = "postgres", # mysql root
-    #                     passwd = "postgres", # mysql root password
-    #                     db = "wines_db")
-    return render(request, 'wine_list/types.html', context)
+    # types = AllWines.objects.all() 
+    # context = {"title": "title" , "my_wine": types}
+    
+    return render(request, 'wine_list/types.html')
 
 
     
