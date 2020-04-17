@@ -14,7 +14,28 @@
     </div>
 
 </div>
-<div class="background"></div>
+<div class="background">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="http://localhost:5500/combined/desserts4.html"> <img src="{% static 'images/bubble.png' %}" alt=""
+                    style="height:20rem"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="http://localhost:5500/combined/World/index.html"> <img src="{% static 'images/world_chart.png' %}"
+                    alt="" style="height:20rem"></a>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-4">
+            <a href="http://localhost:5500/combined/France/index.html"> <img src="{% static 'images/france.png' %}"
+                    alt="" style="height:20rem"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'wine_data' %}"> <img src="{% static 'images/w_data.png' %}" alt=""
+                    style="height:20rem"></a>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 
