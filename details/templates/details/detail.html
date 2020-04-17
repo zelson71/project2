@@ -10,11 +10,17 @@
             <h2>Wine: {{wine.title}}</h2>
             <p> Category: {{ wine.category }}</p>
             <p> Price: {{ wine.price }}</p>
+
             <p> Rating: {{ wine.rating }}</p>
             <p> Country: {{ wine.country }} </p>
+            <p>Region: {{ wine.region }} </p>
+            <p>Vintage: {{ wine.vintage }}</p>
             <p> Winery: {{ wine.winery}} </p>
+            <p> Designation {{ wine.designation }} </p>
+            <p>Information: {{ wine.description }} </p>
+
             {% if wine.category == "Rose" %}
-            <img src="{% static 'images/rose_wine.jpg'%}" alt="">
+            <img src="{% static 'images/rose_wine.jpg'%}" alt="" style="height: 225px;">
 
 
             {% elif wine.category == "Red" %}
@@ -23,7 +29,7 @@
 
             {% else %}
 
-            <img src="{% static 'images/white_wine.png'%}" alt="">
+            <img src="{% static 'images/white_wine.png'%}" alt="" style="height: 225px; ">
             {% endif %}
         </div>
 

@@ -1,0 +1,394 @@
+[{
+    "id": "FR.A",
+    "x": "Alsace",
+    "value": 3541,
+    "ninety_five_plus": 16.6,
+    "percent_total": 11.3,
+    "wine": [
+        ["All Wine", 32, 89],
+        ["Dessert", 70, 92],
+        ["Red", 30, 88],
+        ["Rose'", 20, 87],
+        ["Sparkling", 24, 89],
+        ["White", 32, 90]
+    ]
+}, {
+    "id": "FR.B",
+    "x": "Aquitaine / Bordeaux",
+    "value": 6744,
+    "ninety_five_plus": 24.4,
+    "percent_total": 21.6,
+    "wine": [
+        ["All Wine", 42, 88],
+        ["Dessert", 55, 91],
+        ["Red", 45, 88],
+        ["Rose'", 14, 85],
+        ["Sparkling", 18, 87],
+        ["White", 30, 87]
+    ]
+}, {
+    "id": "FR.C",
+    "x": "Auvergne",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.D",
+    "x": "Bourgogne",
+    "value": 5842,
+    "ninety_five_plus": 31.2,
+    "percent_total": 18.7,
+    "wine": [
+        ["All Wine", 71, 90],
+        ["Red", 89, 90],
+        ["Rose'", 17, 85],
+        ["Sparkling", 23, 88],
+        ["White", 58, 89]
+    ]
+}, {
+    "id": "FR.E",
+    "x": "Bretagne",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.F",
+    "x": "Centre-Val de Loire",
+    "value": 1307,
+    "ninety_five_plus": 1.4,
+    "percent_total": 4.2,
+    "wine": [
+        ["All Wine", 26, 88],
+        ["Dessert", 55, 92],
+        ["Red", 28, 88],
+        ["Rose'", 23, 86],
+        ["Sparkling", 20, 88],
+        ["White", 25, 89]
+    ]
+}, {
+    "id": "FR.G",
+    "x": "Champagne-Ardenne",
+    "value": 2737,
+    "ninety_five_plus": 16.4,
+    "percent_total": 8.8,
+    "wine": [
+        ["All Wine", 83, 90],
+        ["Fortified", 30, 90],
+        ["Red", 21, 94],
+        ["Rose'", 53, 89],
+        ["Sparkling", 83, 90],
+        ["White", 80, 84]
+    ]
+}, {
+    "id": "FR.H",
+    "x": "Corse",
+    "value": 120,
+    "ninety_five_plus": 0,
+    "percent_total": 0.4,
+    "wine": [
+        ["All Wine", 23, 88],
+        ["Dessert", 40, 89],
+        ["Red", 26, 88],
+        ["Rose'", 19, 87],
+        ["White", 24, 88]
+    ]
+}, {
+    "id": "FR.I",
+    "x": "Franche-Comté",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.J",
+    "x": "Île-de-France",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.K",
+    "x": "Languedoc-Roussillon",
+    "value": 1486,
+    "ninety_five_plus": 0.3,
+    "percent_total": 4.8,
+    "wine": [
+        ["All Wine", 18, 86],
+        ["Dessert", 26, 87],
+        ["Fortified", 73, 90],
+        ["Red", 19, 87],
+        ["Rose'", 14, 86],
+        ["Sparkling",17, 87],
+        ["White", 15, 86]
+    ]
+}, {
+    "id": "FR.L",
+    "x": "Limousin",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.M",
+    "x": "Lorraine",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.N",
+    "x": "Midi-Pyrénées",
+    "value": 1356,
+    "ninety_five_plus": 2.4,
+    "percent_total": 4.3,
+    "wine": [
+        ["All Wine", 27, 89],
+        ["Dessert", 25, 89],
+        ["Fortified", 30, 87],
+        ["Red", 31, 90],
+        ["Rose'", 13, 85],
+        ["Sparkling", 19, 87],
+        ["White", 14, 87]
+    ]
+}, {
+    "id": "FR.O",
+    "x": "Nord-Pas-de-Calais",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.P",
+    "x": "Basse-Normandie",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.Q",
+    "x": "Haute-Normandie",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.R",
+    "x": "Pays de la Loire",
+    "value": 1308,
+    "ninety_five_plus": 1.4,
+    "percent_total": 4.2,
+    "wine": [
+        ["All Wine", 26, 88],
+        ["Dessert", 55, 92],
+        ["Red", 28, 88],
+        ["Rose'", 23, 86],
+        ["Sparkling", 20, 88],
+        ["White", 25, 89]
+    ]
+}, {
+    "id": "FR.S",
+    "x": "Picardie",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.T",
+    "x": "Poitou-Charentes",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.U",
+    "x": "Provence-Alpes-Côte d'Azur",
+    "value": 1626,
+    "ninety_five_plus": 0.3,
+    "percent_total": 5.2,
+    "wine": [
+        ["All Wine", 22, 88],
+        ["Red", 26, 89],
+        ["Rose'", 21, 88],
+        ["White", 24, 88]
+    ]
+}, {
+    "id": "FR.V",
+    "x": "Rhône-Alpes",
+    "value": 5146,
+    "ninety_five_plus": 5.6,
+    "percent_total": 16.5,
+    "wine": [
+        ["All Wine", 31, 89],
+        ["Dessert", 31, 91],
+        ["Fortified", 26, 87],
+        ["Red", 31, 89],
+        ["Rose'", 16, 87],
+        ["Sparkling", 21, 87],
+        ["White", 36, 89]
+    ]
+}, {
+    "id": "FR.GF",
+    "x": "French Guiana",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.GP",
+    "x": "Guadeloupe",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.MQ",
+    "x": "Martinique",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.YT",
+    "x": "Mayotte",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}, {
+    "id": "FR.RE",
+    "x": "Reunion",
+    "value": 0,
+    "ninety_five_plus": 0,
+    "percent_total": 0,
+    "wine": [
+        ["All Wine", 0, 0],
+        ["Dessert", 0, 0],
+        ["Fortified", 0, 0],
+        ["Red", 0, 0],
+        ["Rose'", 0, 0],
+        ["Sparkling", 0, 0],
+        ["White", 0, 0]
+    ]
+}]

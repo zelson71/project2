@@ -27,7 +27,7 @@ def w_data(request):
     if 'price' in request.GET:
         price = request.GET['price']
         if price:
-            queryset_list = queryset_list.filter(price__gte=price)
+            queryset_list = queryset_list.filter(price__gte=price) 
 
     if 'category' in request.GET:
         category = request.GET['category']
