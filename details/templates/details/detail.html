@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<div class="detail">
+    <div class="container ">
+
+
+        <div class="card-body card-info ">
+            <h2>Wine: {{wine.title}}</h2>
+            <p> Category: {{ wine.category }}</p>
+            <p> Price: {{ wine.price }}</p>
+            <p> Rating: {{ wine.rating }}</p>
+            <p> Country: {{ wine.country }} </p>
+            <p> Winery: {{ wine.winery}} </p>
+            {% if wine.category == "Rose" %}
+            <img src="{% static 'images/rose_wine.jpg'%}" alt="">
+
+
+            {% elif wine.category == "Red" %}
+
+            <img src="{% static 'images/red_wine.jpeg'%}" alt="">
+
+            {% else %}
+
+            <img src="{% static 'images/white_wine.png'%}" alt="">
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}

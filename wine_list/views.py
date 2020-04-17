@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 
 from .models import AllWines
+from details import views
 from wine_list.choices import wine_rating, country, category_options
 
 # Create your views here.
@@ -43,9 +44,7 @@ def w_data(request):
      }
     return render(request, 'wine_list/rating.html', context)
 
-def deets(request,):
-    # details = get_object_or_404()
-    return render(request, 'wine_list/deets.html')
+
 
 def wine(request):
     wine_info = AllWines.objects.all() [:5000]
@@ -53,8 +52,12 @@ def wine(request):
     return render(request, 'wine_list/wine.html', context)
 
 def types(request):
-    types = AllWines.objects.all() [:5000]
+    types = AllWines.objects.all() 
     context = {"title": "title" , "my_wine": types}
+    # conn = postgres.connect (host = "127.0.0.1",
+    #                     user = "postgres", # mysql root
+    #                     passwd = "postgres", # mysql root password
+    #                     db = "wines_db")
     return render(request, 'wine_list/types.html', context)
 
 

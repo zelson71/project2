@@ -1,1 +1,1 @@
-alert("Gotcha");
+console.log("ran app.js");

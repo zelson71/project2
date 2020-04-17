@@ -68,14 +68,14 @@
                     <!-- <div class="btn-group" role="group"> <button type="button"
                         class="btn btn-outline-success">Filter</button> -->
                 </div>
-                <div class="card-body card-info">
+                <!-- <div class="card-body card-info">
                     <h1>Wine: </h1>
-                    <p> Category: </p>
+                    <p> Category: {{ wine.category }}</p>
                     <p> Price: </p>
                     <p> Rating: </p>
                     <p> Country: </p>
 
-                </div>
+                </div> -->
             </div>
 
             <div class="col-sm-9">
@@ -103,7 +103,7 @@
                                     {% for wine in my_wine %}
                                     <tr>
                                         <!-- <td>{{ wine.id}} </td> -->
-                                        <td><a href="{{ wine.title }}">{{ wine.title }} </a></td>
+                                        <td><a href="{% url 'detail' wine.id %}">{{ wine.title }} </a></td>
                                         <td>{{ wine.category }}</td>
 
                                         <td>{{ wine.designation }}</td>

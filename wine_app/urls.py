@@ -23,10 +23,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', wine_list.views.index, name='home' ),
     path('wine_data/',wine_list.views.w_data, name='wine_data'),
-    path('accounts/', include('accounts.urls')), 
+    path('accounts/', include('accounts.urls')),
+    path('details/', include('details.urls')), 
     path('wine/',wine_list.views.wine,name='wine'),
     path('types/',wine_list.views.types,name='types'),
-    path('deets/', wine_list.views.deets, name='details')
    
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

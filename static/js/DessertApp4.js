@@ -1,8 +1,4 @@
 console.log("we are in");
-
-var value = JSON.parse(document.getElementById('hello-data'));
-console.log(value);
-
 d3.csv("Desserts.csv").then(function (tableData) {
     console.log(tableData);
 

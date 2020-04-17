@@ -5,6 +5,10 @@
     background-color: darkorchid;
     color: darkseagreen;
 }
+.detail{
+background-color: darkviolet;
+height: 100vh;
+}
 .navbar{
     margin-bottom: 0px;
     background-color: darkred;

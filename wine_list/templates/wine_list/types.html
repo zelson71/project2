@@ -6,6 +6,7 @@
 {% block content %}
 
 {% load static %}
+<!-- {% static 'js/Desserts.csv' %} -->
 <div class="hero text-center">
     <h1>Wine Tripper </h1>
 </div>
@@ -80,7 +81,14 @@
         </div>
     </div>
 </div>
+<!-- <script>
+    d3.csv('{% static "js/Desserts.csv" %}', function (err, csv) {
+        console.log(csv)
+    });
+</script> -->
+
+<script>src = "{%static 'js/DessertApp4.js' %}" </script>
 
 
-<script src="{% static 'js/app.js' %}"></script>
 {% endblock %}
+<script id="hello-data" type="application/json">  '{{context.my_wine}}' </script>
