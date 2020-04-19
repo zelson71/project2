@@ -22,14 +22,7 @@
                                 {% endfor %}
                             </select>
 
-                            <!-- <label class="sr-only">Country</label>
-                            <select name="country" class="form-control">
-                                <option selected="true" disabled="True">Country (Any)</option>
-                                {% for key,value in country.items  %}
-                                <option value="{{ key }}" {% if key == values.country %} selected {% endif %}>{{value}}
-                                </option>
-                                {% endfor %}
-                            </select> -->
+
                             <!-- <div class="col-md-6 mb-3"> -->
                             <select name="price" class="form-control">
                                 <option selected="true" disabled="disabled">Max Price (All)</option>
@@ -46,22 +39,6 @@
                                 <option value="500">$500 and up</option>
 
                             </select>
-                            <!-- <select name="max_price" class="form-control">
-                                <option selected="true" disabled="disabled">Max Price (All)</option>
-                                <option value="5">$5 and up</option>
-                                <option value="20">$20 and up</option>
-                                <option value="30">$30 and up</option>
-                                <option value="40">$40 and up </option>
-                                <option value="50">$50 and up</option>
-                                <option value="60">$60 and up</option>
-                                <option value="70">$70 and up</option>
-                                <option value="80">$80 and up</option>
-                                <option value="90">$90 and up</option>
-                                <option value="100">$100 and up</option>
-                                <option value="500">$500 and up</option>
-
-                            </select>  -->
-
                             <!-- </div> -->
                             <select name="category" class="form-control">
                                 <option selected="true" disabled="disabled">Category (All)</option>
@@ -81,17 +58,9 @@
                 </div>
 
                 <div class="card-footer bg-transparent ">
-                    <!-- <div class="btn-group" role="group"> <button type="button"
-                        class="btn btn-outline-success">Filter</button> -->
-                </div>
-                <!-- <div class="card-body card-info">
-                    <h1>Wine: </h1>
-                    <p> Category: {{ wine.category }}</p>
-                    <p> Price: </p>
-                    <p> Rating: </p>
-                    <p> Country: </p>
 
-                </div> -->
+                </div>
+
             </div>
 
             <div class="col-sm-9">
@@ -118,7 +87,7 @@
 
                                     {% for wine in my_wine %}
                                     <tr>
-                                        <!-- <td>{{ wine.id}} </td> -->
+
                                         <td><a href="{% url 'detail' wine.id %}">{{ wine.title }} </a></td>
                                         <td>{{ wine.category }}</td>
 
